@@ -12,7 +12,6 @@
 ## Local installation:
 * npm install
 * npm start
-* npm run seed
 
 ## Built with These Tools
 * JavaScript, HTML, [CSS Bootstrap](https://getbootstrap.com/)
