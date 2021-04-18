@@ -11,8 +11,6 @@
 
 ## Local installation:
 * npm install
-* use ./assets/samples/__sample.env file to setup connection
-* mysql source db/schema.sql
 * npm start
 * npm run seed
 
