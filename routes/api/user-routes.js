@@ -11,17 +11,20 @@ const {
 } = require('../../controllers/user-controller');
 
 router
-    .route('/api/users')
+    .route('/')
     .get(getAllUser)
+    .post(createUser);
+
+router
+    .route('/:id')
     .get(getUserById)
-    .post(createUser)
     .put(updateUser)
     .delete(deleteUser);
 
 router
     .route('/api/users/:userId/friends/:friendId')
-    .post(addFriend)
-    .delete(deleteFriend);
+    // .post(addFriend)
+    // .delete(deleteFriend);
 
 
 module.exports = router;
